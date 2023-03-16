@@ -1,0 +1,83 @@
+/* Définition des variables de couleur */
+:root {
+  --color-primary: #2c3e50;
+  --color-secondary: #27ae60;
+  --color-tertiary: #f39c12;
+}
+
+/* Styles pour l'en-tête */
+header {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Styles pour les sections */
+section {
+  margin-bottom: 40px;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Styles pour les compétences */
+ul:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul:first-of-type li {
+  width: calc(100% / 3 - 10px);
+  margin-right: 10px;
+}
+
+/* Styles pour les langues */
+ul:last-of-type {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul:last-of-type li {
+  width: calc(100% / 2 - 10px);
+  margin-right: 10px;
+}
+
+/* Styles pour les liens */
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
